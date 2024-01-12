@@ -106,7 +106,7 @@ ul {
   flex-direction: column;
   gap: 16px;
 
-  padding: 24px 0;
+  padding: 48px 0 24px 0;
 }
 
 ul li a {
@@ -148,10 +148,12 @@ ul li a:hover {
 
   transition: background 0.5s;
   border-radius: 50%;
+  
 }
 
 #social-links a:hover {
   background: var(--highlight-color);
+  
 }
 
 footer {
